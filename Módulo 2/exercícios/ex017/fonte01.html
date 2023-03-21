@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        
+        /*
+        Medidas Absolutas
+        cm, mm, in, px, pt, pc 
+
+        Medidas Relativas
+        em, ex, rem, vw, vh, %
+        */
+        font-size: 1em;
+
+        /* lighter normal bold bolder */
+
+        }
+
+        h1 {
+            /* shorthand font 
+            - font-style -> font-weight -> font-size -> font-family
+
+            font-family: 'work sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'work sans', sans-serif;
+            }
+
+            h2 {
+                font: bold 2em 'work sans';
+            }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita reiciendis rem ad veritatis, modi quidem sunt reprehenderit consequuntur et quae. Molestiae voluptas quas eum est omnis corporis enim, doloribus itaque!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aperiam tempore distinctio nihil soluta quia porro modi nesciunt minima consequatur id rerum non, temporibus labore architecto rem ut, cumque aspernatur!</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, ab adipisci numquam consectetur perspiciatis maiores nesciunt exercitationem nulla minima aliquid reprehenderit soluta nostrum odit tenetur unde non quidem earum natus.</p>
+</body>
+</html>
